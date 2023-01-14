@@ -1,0 +1,22 @@
+.footer-text {
+  justify-content: space-between;
+  /* color: #868e96; */
+  font-weight: bold;
+  display: flex;
+  padding: 2rem;
+  background-color: rgba(14, 107, 168, 0.467);
+  font-family: "Google Sans Regular";
+}
+
+.footer-div {
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .footer-text{
+    font-weight: normal;
+  }
+  .footer-div {
+    margin-top: 1rem;
+  }
+}
