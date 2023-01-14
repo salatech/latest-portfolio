@@ -12,7 +12,7 @@ const seo = {
   og: {
     title: "Solahudeen Abdulrahmon Portfolio",
     type: "website",
-    url: "http://salatech-portfolio.netlify.app/",
+    url: "https://github.com/salatech",
   },
 };
 
