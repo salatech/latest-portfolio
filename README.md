@@ -1,1 +1,21 @@
+# Portfolio
+
+This is the code for my personal portfolio website, showcasing my web development skills and projects.
+
+## Technologies Used
+- Firebase
+- scss
+- JavaScript
+- [React](https://reactjs.org/)
+- [Node.js](https://nodejs.org/)
+- 
+
+## Features
+- Responsive design for mobile devices
+- Dynamic rendering of projects using React
+- Multiple projects to showcase my past projects.
+- Multiple certifications that shows my proficiency.
+- Secure authentication and authorization using Firebase
+- Contact buttons for visitors to get in touch
+
 
