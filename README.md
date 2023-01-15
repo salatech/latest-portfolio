@@ -5,7 +5,6 @@ This is the code for my personal portfolio website, showcasing my web developmen
 ## Technologies Used
 - Firebase
 - scss
-- Tailwind css
 - Bootsrap
 - JavaScript
 - [React](https://reactjs.org/)
@@ -24,7 +23,8 @@ This is the code for my personal portfolio website, showcasing my web developmen
 - Dynamic rendering of projects using React
 - Multiple projects to showcase my past projects.
 - Multiple certifications that shows my proficiency.
+- Cool animated sections.
 - Secure authentication and authorization using Firebase
-- Contact buttons for visitors to get in touch
+- Contact buttons for visitors to get in touch.
 
 
