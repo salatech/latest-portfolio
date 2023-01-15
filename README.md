@@ -5,10 +5,19 @@ This is the code for my personal portfolio website, showcasing my web developmen
 ## Technologies Used
 - Firebase
 - scss
+- Tailwind css
+- Bootsrap
 - JavaScript
 - [React](https://reactjs.org/)
 - [Node.js](https://nodejs.org/)
-- 
+
+## Dependencies
+- styled components
+- react-reveal
+- framer-motion
+- radium
+- e.t.c.
+ ## All installed with npm
 
 ## Features
 - Responsive design for mobile devices
