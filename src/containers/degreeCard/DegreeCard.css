@@ -17,6 +17,7 @@
   /* color: #000000; */
   margin-top: 7px;
   margin-bottom: 5px;
+  font-weight: normal;
 }
 
 .card-img {
@@ -53,6 +54,7 @@
   /* color: #212121; */
   padding-right: 10px;
   float: right;
+  font-weight:normal;
 }
 
 .body-content {
@@ -128,6 +130,7 @@
     padding: 0px;
     margin: 0px;
     float: left;
+    font-weight:none;
   }
 
   .card-img {
@@ -144,5 +147,6 @@
 
   .card-subtitle {
     font-size: 16px;
+    font-weight: normal;
   }
 }

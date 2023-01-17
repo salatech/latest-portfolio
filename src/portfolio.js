@@ -77,12 +77,12 @@ const degrees = {
     {
       title: "Ladoke Akintola University of Technology",
       subtitle: "B.Tech. in Computer Engineering",
-      duration: "2019-2024",
+  
     },
     {
       title: "Wesley College of Science",
       subtitle: "WASSCE",
-      duration: "2015 - 2018",
+   
      
     },
   ],
