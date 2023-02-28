@@ -192,7 +192,7 @@ const experience = {
         {
           title: "Google Developer Students clubs' web development Lead",
           company: "Google",
-          company_url: " ",
+          company_url: "",
           logo_path: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/chapter_banners/GDSC%20Logo_SvyKJu1.jpeg",
           duration: "Aug 2022 - present",
           location: "Oyo state, Nigeria",
