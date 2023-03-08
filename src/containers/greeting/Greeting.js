@@ -31,7 +31,7 @@ export default function Greeting(props) {
                 <Button
                   text="My Resume"
                   newTab={true}
-                  href="https://drive.google.com/file/d/1XzvlDLcufyePLUi6IHuwVxsKQPZJN7HD/view?usp=drivesdk"
+                  href="https://www.canva.com/design/DAFbxSutuHU/4LXwyGigWvn2TzlchEk_FQ/view?utm_content=DAFbxSutuHU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                   theme={theme}
                   className="portfolio-repo-btn"
                 />

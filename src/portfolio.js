@@ -24,11 +24,7 @@ const greeting = {
   subTitle:
     "I am a front-end engineer with 2+ years of experience. Proficient in working with different technologies. Knowledgeable in modern software development best practices, tools, algorithms, and concepts. Always happy to pick up new technologies that are best for the job. I enjoy building communities and sharing my knowledge. I never stop learning.",
      resumeLink:
-<<<<<<< HEAD
     "https://www.canva.com/design/DAFbxSutuHU/4LXwyGigWvn2TzlchEk_FQ/view?utm_content=DAFbxSutuHU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-=======
-    "https://drive.google.com/file/d/1XzvlDLcufyePLUi6IHuwVxsKQPZJN7HD/view?usp=drivesdk",
->>>>>>> 0d92269695959103bfb483c89d9aac411c5ebe8e
   portfolio_repository: "https://github.com/salatech/latest-portfolio",
   githubProfile: "https://github.com/salatech",
 };
@@ -196,7 +192,7 @@ const experience = {
         {
           title: "Google Developer Students clubs' web development Lead",
           company: "Google",
-          company_url: " ",
+          company_url: "",
           logo_path: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/chapter_banners/GDSC%20Logo_SvyKJu1.jpeg",
           duration: "Aug 2022 - present",
           location: "Oyo state, Nigeria",
