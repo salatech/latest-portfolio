@@ -19,6 +19,16 @@ class Projects extends Component {
       
     },
     {
+      "id": "3",
+      "name": "Git hub users",
+      "project": "https://github.com/salatech/github_users",
+      "live" : "https://github-users-salatech.vercel.app",
+      "alt" : "github page image",
+      "description": "This app shows the data of all github users in a cool visualized dashboard.",
+      "image": "https://res.cloudinary.com/dvd8hlffl/image/upload/v1678277315/My%20web%20images/github_h9pg5y.png",
+      
+    },
+    {
       "id": "2",
       "name": "React Quiz App",
       "project": "https://github.com/salatech/r-quiz",
@@ -39,16 +49,7 @@ class Projects extends Component {
       "image": "https://github.com/salatech/ip-address-tracker/blob/main/assets/images/lang.png?raw=true",
       
     },
-    {
-      "id": "3",
-      "name": "React Calculator",
-      "project": "https://github.com/salatech/react-calculator",
-      "live" : "https://salatech-react-calculator-app.netlify.app",
-      "alt" : "Calculator app image",
-      "description": "This calculator has the ability to perform arithmetic operations and stores the results.",
-      "image": "https://salatech.github.io/portfolio/images/calculator.png",
-      
-    },
+    
     {
       "id": "5",
       "name": "Note App",
