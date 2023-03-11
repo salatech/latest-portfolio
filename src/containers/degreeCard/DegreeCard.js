@@ -1,11 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import "./DegreeCard.css";
 import { Fade, Flip } from "react-reveal";
 
-class DegreeCard extends Component {
-  render() {
-    const degree = this.props.degree;
-    const theme = this.props.theme;
+const DegreeCard =(props) => {
+    const degree = props.degree;
+    const theme = props.theme;
     return (
       <div className="degree-card">
         {degree.logo_path && (
@@ -48,6 +47,5 @@ class DegreeCard extends Component {
       </div>
     );
   }
-}
 
 export default DegreeCard;
