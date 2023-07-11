@@ -4,7 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import Me from "../../assests/images/me.png"
+import Me from "../../assests/images/mee.png"
 
 export default function Greeting(props) {
   const theme = props.theme;
