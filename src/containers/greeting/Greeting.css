@@ -1,97 +1,118 @@
 .main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
+	width: 90%;
+	padding: 20px 10px;
+	margin: 0px auto;
 }
 .greet-main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 2rem;
-}
-
-.gretting-main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
+	width: 90%;
+	padding: 20px 10px;
+	margin: 0px auto;
+	margin-top: 2rem;
 }
 
 .greeting-main {
-  display: flex;
+	width: 100%;
+	padding: 20px 10px;
+	margin: 0px auto;
+	display: flex;
+	align-items: center;
+}
+
+.greeting-main {
+	display: flex;
 }
 
 .greeting-main > * {
-  flex: 1;
-  margin-bottom: 30px;
+	flex: 1;
+	margin-bottom: 30px;
 }
 .button-greeting-div {
-  display: flex;
-  margin-top: 20px;
+	display: flex;
+	margin-top: 20px;
 }
 
 .greeting-text {
-  margin-top: 80px;
-  font-size: 70px;
-  line-height: 1.1;
-  font-family: "Google Sans Bold";
+	margin-top: 80px;
+	font-size: 36px;
+	line-height: 1.1;
+	font-family: "Google Sans Regular";
 }
 
 .greeting-nickname {
-  font-size: 22px;
-  line-height: 0px;
-  font-family: "Google Sans Bold";
+	font-size: 18px;
+	line-height: 0px;
+	font-family: "Google Sans Regular";
 }
 
 .greeting-text-p {
-  font-size: 20px;
-  text-align: justify;
-  line-height: 40px;
-  margin-right: 40px;
-  font-family: "Google Sans Medium";
+	font-size: 18px;
+	text-align: justify;
+	line-height: 40px;
+	font-family: "Google Sans Regular";
 }
 
-.greeting-image-div > * {
-  max-width: 100%;
-  height: 100%;
+.greeting-image-div {
+	max-width: 100%;
+	text-align: end;
+	height: 100%;
 }
-
-
+.greeting-image-div > img {
+	max-width: 80%;
+	height: 100%;
+	border: 6px solid #001c55;
+	animation: changeBorderRadius 10s ease-in-out infinite;
+}
+@keyframes changeBorderRadius {
+	0% {
+		border-radius: 100% 90% 100% 100%;
+	}
+	25% {
+		border-radius: 100% 8%5 100% 90%;
+	}
+	50% {
+		border-radius: 90% 100% 85% 90%;
+		border-color: #a5e0fa;
+	}
+	100% {
+		border-radius: 100% 85% 90% 90%;
+	}
+}
 /* Media Query */
 @media (max-width: 1380px) {
-  .greeting-text {
-    font-size: 50px;
-  }
-  .greeting-text-p {
-    font-size: 16px;
-  }
+	.greeting-text {
+		font-size: 24px;
+	}
+	.greeting-text-p {
+		font-size: 16px;
+	}
 }
 @media (max-width: 768px) {
-  .button-greeting-div {
-    justify-content: space-around;
-  }
-  .greeting-text {
-    font-size: 30px;
-    margin-top: 0px;
-    text-align: center;
-  }
-  .greeting-nickname {
-    font-size: 25px;
-    text-align: center;
-    font-family: Google Sans;
-  }
-  .greeting-text-p {
-    font-size: 16px;
-    margin-right: 0px;
-    line-height: normal;
-    text-align: justify;
-  }
-  .greeting-main {
-    display: block;
-  }
-
-  .portfolio-repo-btn-div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
+	.button-greeting-div {
+		justify-content: space-around;
+	}
+	.greeting-text {
+		font-size: 24px;
+		margin-top: 0px;
+		font-family: "Google Sans Bold";
+	}
+	.greeting-nickname {
+		font-size: 18px;
+	}
+	.greeting-text-p {
+		font-size: 16px;
+		margin-right: 0px;
+		line-height: normal;
+		text-align: justify;
+	}
+	.greeting-main {
+		display: block;
+	}
+	.greeting-image-div {
+		text-align: center;
+	}
+	.portfolio-repo-btn-div {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
 }

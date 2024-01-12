@@ -2,50 +2,55 @@ import React from "react";
 import "./DegreeCard.css";
 import { Fade, Flip } from "react-reveal";
 
-const DegreeCard =(props) => {
-    const degree = props.degree;
-    const theme = props.theme;
-    return (
-      <div className="degree-card">
-        {degree.logo_path && (
-          <Flip left duration={2000}>
-            <div className="card-img">
-              <img
-                style={{
-                  maxWidth: "100%",
-                  maxHeight: "100%",
-                  transform: "scale(0.9)",
-                }}
-                src={require(`../../assests/images/${degree.logo_path}`)}
-                alt={degree.alt_name}
-              />
-            </div>
-          </Flip>
-        )}
-        <Fade right duration={2000} distance="40px">
-          <div
-            className="card-body"
-            style={{ width: degree.logo_path ? "90%" : "100%" }}
-          >
-            <div
-              className="body-header"
-              style={{ backgroundColor: theme.headerColor }}
-            >
-              <div className="body-header-title">
-                <h2 className="card-title" style={{ color: theme.text }}>
-                  {degree.title}
-                </h2>
-                <h3 className="card-subtitle" style={{ color: theme.text }}>
-                  {degree.subtitle}
-                </h3>
-              </div>
-             
-            </div>
-         
-          </div>
-        </Fade>
-      </div>
-    );
-  }
+const DegreeCard = (props) => {
+	const degree = props.degree;
+	const theme = props.theme;
+	return (
+		<div className="degree-card">
+			<Fade
+				right
+				duration={2000}
+				distance="40px"
+			>
+				<div
+					className="card-body"
+					style={{ width: "100%" }}
+				>
+					<div
+						className="body-header"
+						style={{ backgroundColor: "#001c55", color: "#ecf9fe" }}
+					>
+						<p className="card-title">{degree.date}</p>
+						<p className="card-title">{degree.degree}</p>
+					</div>
+					<div className="body-header-title">
+						<p
+							className="card-subtitle"
+							style={{ color: theme.text }}
+						>
+							{degree.subtitle}
+						</p>
+						<h4
+							className="card-title"
+							style={{ color: theme.text }}
+						>
+							{degree.title}
+						</h4>
+						<p
+							className="card-subtitle"
+							style={{ color: theme.text }}
+						>
+							{degree.description?.map((description, index) => (
+								<span key={index}>
+									{`- ${description}`} <br />{" "}
+								</span>
+							))}
+						</p>
+					</div>
+				</div>
+			</Fade>
+		</div>
+	);
+};
 
 export default DegreeCard;

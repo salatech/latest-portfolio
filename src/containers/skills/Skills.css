@@ -1,98 +1,119 @@
 .skills-main-div {
-  display: flex;
-  overflow: hidden;
+	display: flex;
+	padding-top: 20px;
+	overflow: hidden;
 }
 
 .skills-header {
-  font-size: 20px;
-  font-family: "Google Sans Regular";
-  text-align: center;
+	font-size: 20px;
+	font-family: "Google Sans Regular";
+	text-align: center;
 }
-.skills-header-div{
-  text-align:center;
+.skill-img {
+	float: right;
+	margin: 10px 5px;
+}
+.skills-header-div {
+	text-align: center;
+}
+.skills-text-div {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	gap: 20px;
+	font-family: "Google Sans Regular";
+}
+.skill-box {
+	border: 0.2px solid rgba(14, 107, 168, 0.467);
+	text-align: left;
+	width: 20%;
+	position: relative;
+	padding: 10px;
 }
 .skills-text {
-  font-size: 20px;
+	font-size: 16px;
+	font-family: "Google Sans medium";
 }
-
-.skills-text-div {
-  margin-left: 50px;
-  font-family: "Google Sans Regular";
+.skills-text2 {
+	font-size: 14px;
+	font-family: "Google Sans Regular";
 }
-
 .skills-main-div > * {
-  flex: 1;
-  margin-bottom: 30px;
+	flex: 1;
+	margin-bottom: 30px;
 }
 
 .skills-image-div > * {
-  max-width: 100%;
-  height: auto;
-  margin-top: 100px;
+	max-width: 100%;
+	height: auto;
+	margin-top: 100px;
 }
 
 .skills-heading {
-  font-size: 56px;
-  font-weight: 400;
-  font-family: "Google Sans Regular";
-  line-height: normal;
+	font-size: 56px;
+	font-weight: 400;
+	font-family: "Google Sans Regular";
+	line-height: normal;
 }
-.skill-button{
-  font-size: 13px;
-    letter-spacing: 1px;
-    font-weight: 700;
-    color: rgb(16, 110, 234);
-    display: inline-block;
-    text-transform: uppercase;
-    padding: 8px 20px;
-    margin: 0px;
-    background: rgb(231, 241, 253);
-    border-radius: 50px;
+.skill-button {
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	color: rgb(16, 110, 234);
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 8px 20px;
+	margin: 0px;
+	background: rgb(231, 241, 253);
+	border-radius: 50px;
 }
 /* Media Query */
 @media (max-width: 1380px) {
-  .skills-heading {
-    font-size: 30px;
-  }
-  .skills-header {
-    font-size:25px;
-    font-weight:lighter;
-  }
-  /* .skills-image-div > img {
+	.skills-heading {
+		font-size: 30px;
+	}
+	.skills-header {
+		font-size: 25px;
+		font-weight: lighter;
+	}
+	/* .skills-image-div > img {
     margin-top: 0px;
   } */
 }
 @media (max-width: 768px) {
-  .skills-heading {
-    font-size: 16x;
-    text-align: center;
-  }
-  .skills-header {
-    font-size: 16px;
-  }
-  .greeting-text-p {
-    font-size: 16px;
-    line-height: normal;
-  }
-  .skills-main-div {
-    flex-direction: column;
-  }
-  .skills-text-div {
-    margin-left: 0px;
-    margin: 20px;
-  }
-  .skills-text {
-    font-size: 16px;
-  }
-  .skills-text-subtitle {
-    font-size: 16px;
-    text-align: center;
-  }
-  .skills-image-div {
-    /* display: none; */
-    order: 2;
-  }
-  .skills-image-div > * {
-    margin-top: 0px;
-  }
+	.skills-heading {
+		font-size: 16x;
+		text-align: center;
+	}
+	.skill-box {
+		width: 100%;
+	}
+	.skills-header {
+		font-size: 16px;
+	}
+	.greeting-text-p {
+		font-size: 16px;
+		line-height: normal;
+	}
+	.skills-main-div {
+		flex-direction: column;
+	}
+	.skills-text-div {
+		margin-left: 0px;
+	}
+	.skills-text {
+		font-size: 16px;
+	}
+	.skills-text-subtitle {
+		font-size: 16px;
+		text-align: center;
+	}
+	.skills-image-div {
+		/* display: none; */
+		order: 2;
+	}
+	.skills-image-div > * {
+		margin-top: 0px;
+	}
 }
