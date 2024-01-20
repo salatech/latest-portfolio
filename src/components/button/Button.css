@@ -30,8 +30,8 @@
 /* Media Query */
 @media (max-width: 768px) {
 	.main-button {
-		font-size: 15px;
-		padding: 12px 18px;
+		font-size: 14px;
+		padding: 10px;
 		margin-right: 0px;
 	}
 }

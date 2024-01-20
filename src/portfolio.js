@@ -66,13 +66,13 @@ const skills = {
 					image:
 						"https://res.cloudinary.com/dvd8hlffl/image/upload/v1704991866/type_j3bfue.png",
 					skill:
-						"Html, css, JavaScript (ES6+), React, Nextjs, Tailwind css, Bootstrap, Material UI, Chakra UI",
+						"Html, css, JavaScript,TypeScript, Reactjs, Nextjs, Tailwind, Bootstrap, Material UI",
 				},
 				{
 					title: "Version Control / collaboration",
 					image:
 						"https://res.cloudinary.com/dvd8hlffl/image/upload/v1704991333/vcs_mhumco.png",
-					skill: "Git, Github, Slack,Discord, Teams",
+					skill: "Git, Github, Bit Bucket, Slack,Discord, Teams, Trello",
 				},
 				{
 					title: "Programming and scripting",
@@ -196,9 +196,9 @@ const experience = {
 					logo_path:
 						"https://res.cloudinary.com/dvd8hlffl/image/upload/v1705025224/tinytime_oeunyj.png",
 					duration: "Oct 2023 - Present",
-					location: "NIGERIA",
+					location: "Remote",
 					description:
-						" Learnt a deep knowledge of Javascript, TypeScript, and React(NextJS).   Built reusable, yet delightful different web components to perfect my skills.  Technologies used - HTML, CSS, Tailwind, React(NextJS).",
+						" I design and implement visually engaging and user-friendly interfaces for their online platform. I develop multiple event-planning timers with exclusive eye-catching animations.Technologies used: Javascript (Ts), Tailwind, HTML, CSS, Nodejs.",
 					color: "#8c60f0",
 				},
 				{
@@ -208,9 +208,9 @@ const experience = {
 					logo_path:
 						"https://res.cloudinary.com/dvd8hlffl/image/upload/v1705025224/keenchess_xc71lv.png",
 					duration: "March 2023 - Present",
-					location: "NIGERIA",
+					location: "Remote",
 					description:
-						" Learnt a deep knowledge of Javascript, TypeScript, and React(NextJS).   Built reusable, yet delightful different web components to perfect my skills.  Technologies used - HTML, CSS, Tailwind, React(NextJS).",
+						" I design and implement visually engaging and user-friendly interfaces for their online platform, collaborating closely with design and development teams to translate wireframes and prototypes into functional code. I conduct rigorous testing to ensure compatibility and optimize performance, resulting in an enhanced user interface and increased customer satisfaction. Technologies used: Nextjs, Typescript.",
 					color: "#c29332",
 				},
 				{
@@ -220,7 +220,7 @@ const experience = {
 					logo_path:
 						"https://pbs.twimg.com/profile_images/1351875712110755840/dXISVR3y_400x400.jpg",
 					duration: "Aug 2022 - Nov 2022",
-					location: "NIGERIA",
+					location: "Onsite",
 					description:
 						" Learnt a deep knowledge of Javascript, TypeScript, and React(NextJS).   Built reusable, yet delightful different web components to perfect my skills.  Technologies used - HTML, CSS, Tailwind, React(NextJS).",
 					color: "#727174",
@@ -259,7 +259,7 @@ const experience = {
 					logo_path:
 						"https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/chapter_banners/GDSC%20Logo_SvyKJu1.jpeg",
 					duration: "Aug 2022 - present",
-					location: "Oyo state, Nigeria",
+					location: "Onsite",
 					description:
 						"We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development and React JS",
 					color: "#4285F4",

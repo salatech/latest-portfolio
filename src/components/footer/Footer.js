@@ -3,16 +3,18 @@ import "./Footer.css";
 import { Fade } from "react-reveal";
 
 export default function Footer(props) {
-
-  return (
-    <div className="footer-div">
-      <Fade>
-        <p className="footer-text" style={{ color: props.theme.black }}>
-        <span>All Rights Reserved</span>
-        <span>Designed by SALATECH</span>
-        
-        </p>
-      </Fade>
-    </div>
-  );
+	return (
+		<div className="footer-div">
+			<Fade>
+				<div
+					className="footer-text"
+					style={{ color: props.theme.black }}
+				>
+					<span>All rights reserved.</span>
+					<span style={{ fontSize: "24px" }}>&copy; </span>
+					<span>{new Date().getFullYear()}</span>
+				</div>
+			</Fade>
+		</div>
+	);
 }

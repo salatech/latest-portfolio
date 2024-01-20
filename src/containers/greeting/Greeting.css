@@ -26,6 +26,10 @@
 	flex: 1;
 	margin-bottom: 30px;
 }
+.greeting-text-div {
+	display: flex;
+	flex-direction: column;
+}
 .button-greeting-div {
 	display: flex;
 	margin-top: 20px;
@@ -82,30 +86,30 @@
 	.greeting-text {
 		font-size: 24px;
 	}
-	.greeting-text-p {
-		font-size: 16px;
-	}
 }
 @media (max-width: 768px) {
 	.button-greeting-div {
 		justify-content: space-around;
 	}
 	.greeting-text {
-		font-size: 24px;
+		font-size: 18px;
 		margin-top: 0px;
 		font-family: "Google Sans Bold";
 	}
 	.greeting-nickname {
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.greeting-text-p {
-		font-size: 16px;
+		font-size: 14px;
 		margin-right: 0px;
 		line-height: normal;
 		text-align: justify;
 	}
 	.greeting-main {
 		display: block;
+	}
+	.greet-main {
+		margin-top: 0px;
 	}
 	.greeting-image-div {
 		text-align: center;

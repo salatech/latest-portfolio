@@ -36,7 +36,7 @@ const DegreeCard = (props) => {
 						>
 							{degree.title}
 						</h4>
-						<p
+						<div
 							className="card-subtitle"
 							style={{ color: theme.text }}
 						>
@@ -45,7 +45,7 @@ const DegreeCard = (props) => {
 									{`- ${description}`} <br />{" "}
 								</span>
 							))}
-						</p>
+						</div>
 					</div>
 				</div>
 			</Fade>
