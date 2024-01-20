@@ -23,7 +23,7 @@ const greeting = {
 	subTitle:
 		"I am a front-end engineer with 3+ years of experience. Proficient in working with different technologies. Knowledgeable in modern software development best practices, tools, algorithms, and concepts. I enjoy building communities and sharing my knowledge. I never stop learning.",
 	resumeLink:
-		"https://www.canva.com/design/DAFbxSutuHU/4LXwyGigWvn2TzlchEk_FQ/view?utm_content=DAFbxSutuHU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+		"https://www.canva.com/design/DAFbxSutuHU/4LXwyGigWvn2TzlchEk_FQ/edit?utm_content=DAFbxSutuHU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
 	portfolio_repository: "https://github.com/salatech/latest-portfolio",
 	githubProfile: "https://github.com/salatech",
 };
