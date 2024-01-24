@@ -187,7 +187,7 @@ const experience = {
 	subtitle: "Work, Internship and Volunteership",
 	sections: [
 		{
-			title: "Work and Internships",
+			title: "Work Experience",
 			experiences: [
 				{
 					title: "Frontend Developer",
