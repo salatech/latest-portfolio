@@ -84,10 +84,10 @@
 	font-weight: 600;
 }
 .repo-cards-div-main {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 3rem 0;
-	justify-content: space-between;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 3rem;
 	margin-top: 60px;
 }
 
@@ -95,6 +95,11 @@
 	.projects-heading-text {
 		font-size: 50px;
 		margin-top: 80px;
+	}
+	.repo-cards-div-main {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
 	}
 	.projects-heading-sub-text {
 		font-size: 25px;
@@ -128,7 +133,9 @@
 	}
 
 	.repo-cards-div-main {
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		grid-template-columns: 1fr;
+		width: 100%;
+		justify-content: center;
 		margin-top: 30px;
 	}
 }

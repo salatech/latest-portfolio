@@ -3,7 +3,10 @@
 	box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
 	background: #ecf9fe;
 	padding: 10px;
-	width: 350px;
+	max-width: 550px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
 	cursor: pointer;
 }
@@ -90,13 +93,13 @@
 
 @media (max-width: 1200px) {
 	.repo-card-div {
-		flex: 1 1 40%;
+		width: 100%;
 	}
 }
 
 @media (max-width: 768px) {
 	.repo-card-div {
-		flex: 1 1 100%;
+		width: 100%;
 	}
 
 	.repo-name {
@@ -108,7 +111,7 @@
 	}
 
 	.repo-details {
-		padding: 0 30px;
+		padding: 0;
 		justify-content: space-between;
 	}
 

@@ -46,8 +46,7 @@ const Projects = ({ theme }) => {
 			alt: "language trans app image",
 			description:
 				"This app can translate over 50 different languages and you can also listen to languages intonations",
-			image:
-				"https://github.com/salatech/ip-address-tracker/blob/main/assets/images/lang.png?raw=true",
+			image: "https://salatech.github.io/portfolio/images/lang.png",
 		},
 
 		{
