@@ -164,7 +164,7 @@ const certifications = {
 			logo_path:
 				"https://www.simplilearn.com/ice9/team_images/author_simplilearn.jpg",
 			certificate_link:
-				"https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
+				"https://simpli-web.app.link/e/TrhZ5uOzQNb",
 			alt_name: "Simplilearn",
 			color_code: "#013856",
 		},
