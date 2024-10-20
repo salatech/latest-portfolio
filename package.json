@@ -9,7 +9,6 @@
 		"baseui": "^12.2.0",
 		"bootstrap": "^5.2.3",
 		"chart.js": "^4.1.2",
-		"framer-motion": "^8.1.0",
 		"node-sass": "^7.0.3",
 		"react": "^16.0.0",
 		"react-bootstrap": "^2.7.0",
