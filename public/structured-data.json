@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Solahudeen Abdulrahmon",
+  "url": "https://github.com/salatech",
+  "image": "https://avatars.githubusercontent.com/u/69428338?v=4",
+  "jobTitle": "Software Engineer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "H30"
+  },
+  "description": "A passionate Software Engineer with 4+ years of experience in Frontend and mobile development. Specializing in React, JavaScript, TypeScript, and modern web technologies.",
+  "sameAs": [
+    "https://github.com/salatech",
+    "https://www.linkedin.com/in/solahudeen-abdulrahmon-000a41215",
+    "https://twitter.com/salatech2"
+  ],
+  "knowsAbout": [
+    "Frontend Development",
+    "React",
+    "JavaScript",
+    "TypeScript",
+    "React Native",
+    "Web Development",
+    "Mobile Development"
+  ],
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Ladoke Akintola University of Technology",
+    "sameAs": "https://www.lautech.edu.ng/"
+  }
+} 

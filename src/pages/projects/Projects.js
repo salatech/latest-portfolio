@@ -9,12 +9,53 @@ const Projects = ({ theme }) => {
 		{
 			id: "1",
 			name: "IP Address Tracker",
-			project: "https://github.com/salatech/ip-address-tracker",
-			live: "https://salatech.github.io/ip-address-tracker/",
+			project: "https://github.com/salatech/ip-tracker",
+			live: "https://ip-tracker-ts.vercel.app/",
 			alt: "Ip Tracker image",
 			description:
 				"This app takes the IP address as input in the search bar and process it's location on the map.",
 			image: "https://salatech.github.io/portfolio/images/map.png",
+		},
+		{
+			id: "6",
+			name: "Language Translator",
+			project: "https://github.com/salatech/language-translator",
+			live: "https://language-translator-ts.vercel.app/",
+			alt: "language trans app image",
+			description:
+				"This app provides real-time translation across multiple languages, pronunciation, text-to-speech functionality and lots more",
+			image: "https://res.cloudinary.com/dvd8hlffl/image/upload/v1744301297/my%20portfolio/language%20translator.png",
+		},
+
+		{
+			id: "5",
+			name: "Style Hub",
+			project: "https://github.com/salatech/Style-Hub",
+			live: "https://style-hubs.vercel.app/",
+			alt: "Note app image",
+			description:
+				"This is a frontend based e-commerce platform. It comprises of all the features of a typical e-commerce platform.",
+			image: "https://github.com/salatech/Style-Hub/raw/main/public/homepage.png",
+		},
+		{
+			id: "2",
+			name: "Qr Code Generator",
+			project: "https://github.com/salatech/QR-CODE-GENERATOR",
+			alt: "Qr code generator image",
+			live: "https://salatech-qr-code-generator.vercel.app/",
+			description:
+				"This app generates a QR code from a text input or Images, or link and displays. It allows users to download and share the QR code",
+			image: "https://res.cloudinary.com/dvd8hlffl/image/upload/v1744304188/my%20portfolio/qr.png",
+		},
+		{
+			id: "4",
+			name: "Art Gallery",
+			project: "https://github.com/salatech/pictures-library",
+			live: "https://pictures-library.vercel.app/",
+			alt: "Art gallery image",
+			description:
+				"This app is a picture library. It comprises of all the pictures you can think of.",
+			image: "https://res.cloudinary.com/dvd8hlffl/image/upload/v1744320233/my%20portfolio/art%20gallery.png",
 		},
 		{
 			id: "3",
@@ -26,48 +67,6 @@ const Projects = ({ theme }) => {
 				"This app shows the data of all github users in a cool visualized dashboard.",
 			image:
 				"https://res.cloudinary.com/dvd8hlffl/image/upload/v1678277315/My%20web%20images/github_h9pg5y.png",
-		},
-		{
-			id: "2",
-			name: "React Quiz App",
-			project: "https://github.com/salatech/r-quiz",
-			alt: "Quiz app image",
-			live: "https://salatech-react-quiz.netlify.app/",
-			description:
-				"This app process a multi-choice questions from different field and it shows the result after each attempts.",
-			image: "https://salatech.github.io/portfolio/images/quiz.png",
-		},
-
-		{
-			id: "6",
-			name: "Language Translator",
-			project: "https://github.com/salatech/language-translator",
-			live: "https://salatech.github.io/language-translator/",
-			alt: "language trans app image",
-			description:
-				"This app can translate over 50 different languages and you can also listen to languages intonations",
-			image: "https://salatech.github.io/portfolio/images/lang.png",
-		},
-
-		{
-			id: "5",
-			name: "Note App",
-			project: "https://github.com/salatech/Note-App",
-			live: "https://salatech.github.io/Note-App/",
-			alt: "Note app image",
-			description:
-				"This app can be used to keep important notes and stores them on the local server. ",
-			image: "https://salatech.github.io/portfolio/images/note.png",
-		},
-		{
-			id: "4",
-			name: "Movie App",
-			project: "https://github.com/salatech/movie",
-			live: "https://salatech.github.io/movie/",
-			alt: "Movie app image",
-			description:
-				"This app is a  movie search engine. It comprises of all the movies you can think of.",
-			image: "https://salatech.github.io/portfolio/images/movie.png",
 		},
 	];
 	return (

@@ -7,15 +7,11 @@ import Experience from "../experience/Experience";
 import Education from "../education/EducationComponent";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-
 const Home = (props) => {
-	const theme = props.theme;
 	return (
 		<div>
 			<Header theme={props.theme} />
 			<Greeting theme={props.theme} />
-			<SocialMedia theme={theme} />
 			<Skills theme={props.theme} />
 			<Projects theme={props.theme} />
 			<Experience theme={props.theme} />

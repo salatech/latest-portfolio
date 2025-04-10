@@ -1,18 +1,13 @@
 .social-media-div {
 	font-size: 1em;
+	width: max-content;
 	display: flex;
 	justify-content: center;
-	flex-direction: column;
-	position: fixed;
-	left: 0;
 	padding: 5px;
 	gap: 10px;
 	background: #ecf9fe;
-	z-index: 55;
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-	top: 35%;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), 0 1px 2px rgba(0, 0, 0, 0.23);
 	cursor: move;
-	animation: blink 10s infinite alternate; /* Add blink animation */
 }
 
 @keyframes blink {
@@ -44,56 +39,4 @@
 	user-select: none;
 	width: 2rem;
 	margin: 5px;
-}
-
-/* .facebook i {
-  background-color: #3b5998;
-}
-
-.linkedin i {
-  background-color: #0e76a8;
-}
-
-.github i {
-  background-color: #333;
-}
-
-.gitlab i {
-  background-color: #fca326;
-}
-
-.google i {
-  background-color: #ea4335;
-}
-
-.twitter i {
-  background-color: #1da1f2;
-}
-
-.instagram i {
-  background-color: #E4405F;
-} */
-
-/*Hover Transition*/
-/* .twitter i:hover, .google i:hover, .gitlab i:hover,
-.github i:hover ,.linkedin i:hover ,.facebook i:hover, .instagram i:hover{
-  background-color: black;
-  transition: 0.3s ease-in;
-} */
-
-/* Media Query */
-@media (max-width: 768px) {
-	.social-media-div {
-		text-align: center;
-		font-size: 1em;
-		display: flex;
-
-		margin: 0 auto;
-		align-items: center;
-		flex-direction: row;
-		position: fixed;
-		top: 95%;
-		width: max-content;
-		height: 50px;
-	}
 }

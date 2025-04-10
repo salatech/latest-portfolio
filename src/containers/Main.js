@@ -18,20 +18,15 @@ export default function Main(props) {
             render={(props) => <Home {...props} theme={theme} />}
           />
           <Route
-            path="/"
-            render={(props) => <Home {...props} theme={theme} />}
-          />
-          <Route
-            path="/"
-            exact
+            path="/experience"
             render={(props) => <Experience {...props} theme={theme} />}
           />
           <Route
-            path="/"
+            path="/education"
             render={(props) => <Education {...props} theme={theme} />}
           />
           <Route
-            path="/"
+            path="/projects"
             render={(props) => <Projects {...props} theme={theme} />}
           />
         </Switch>
