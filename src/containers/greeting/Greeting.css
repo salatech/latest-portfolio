@@ -62,7 +62,8 @@
 }
 .greeting-image-div > img {
 	max-width: 80%;
-	height: 100%;
+	height: auto;
+	object-fit: contain;
 	border: 6px solid #001c55;
 	animation: changeBorderRadius 10s ease-in-out infinite;
 }
@@ -113,6 +114,10 @@
 	}
 	.greeting-image-div {
 		text-align: center;
+	}
+	.greeting-image-div > img {
+		max-width: 90%;
+		height: auto;
 	}
 	.portfolio-repo-btn-div {
 		width: 100%;
