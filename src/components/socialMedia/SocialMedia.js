@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./SocialMedia.css";
 import { socialMediaLinks } from "../../portfolio";
 import styled from "styled-components";
@@ -17,7 +17,7 @@ const DraggableSocialMedia = () => {
 	return (
 		<div
 			className="social-media-div"
-			title="Drag me!"
+			title="connect with me!"
 		>
 			{socialMediaLinks.map((media) => {
 				return (

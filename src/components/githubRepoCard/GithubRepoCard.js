@@ -3,10 +3,6 @@ import "./GithubRepoCard.css";
 import { Fade } from "react-reveal";
 
 export default function GithubRepoCard({ repo, theme }) {
-	function openRepoinNewTab(url) {
-		var win = window.open(url, "_blank");
-		win.focus();
-	}
 	return (
 		<div
 			key={repo.id}
@@ -49,12 +45,14 @@ export default function GithubRepoCard({ repo, theme }) {
 					>
 						<button> Live Demo</button>
 					</a>
+					{repo.project.length > 0 && (
 					<a
 						href={repo.project}
 						className="Link"
 					>
-						<button> Github Link</button>
-					</a>
+							<button> Github Link</button>
+						</a>
+					)}
 				</div>
 			</Fade>
 		</div>

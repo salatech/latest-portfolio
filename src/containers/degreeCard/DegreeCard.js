@@ -1,6 +1,6 @@
 import React from "react";
 import "./DegreeCard.css";
-import { Fade, Flip } from "react-reveal";
+import { Fade } from "react-reveal";
 
 const DegreeCard = (props) => {
 	const degree = props.degree;

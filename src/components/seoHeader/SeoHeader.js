@@ -7,7 +7,7 @@ function SeoHeader() {
     <Helmet>
       <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
-      <meta name="keywords" content="Solahudeen Abdulrahmon, Software Engineer, Frontend Developer, React, JavaScript, Portfolio" />
+      <meta name="keywords" content="Solahudeen Abdulrahmon, Solahudeen Babatunde, Abdulrahmon Solahudeen, Software Engineer, Frontend Developer, React, JavaScript, Portfolio" />
       <meta name="author" content="Solahudeen Abdulrahmon" />
       <meta name="robots" content="index, follow" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />

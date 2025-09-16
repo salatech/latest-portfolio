@@ -11,7 +11,7 @@ export default function Footer(props) {
 					style={{ color: props.theme.black }}
 				>
 					<span>All rights reserved.</span>
-					<span style={{ fontSize: "24px" }}>&copy; </span>
+					<span style={{ fontSize: "24px" , marginTop:"5px" }}>&copy; </span>
 					<span>{new Date().getFullYear()}</span>
 				</div>
 			</Fade>

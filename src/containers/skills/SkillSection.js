@@ -21,6 +21,7 @@ const SkillSection = (props) => {
 											<img
 												className="skill-img"
 												src={skillItem.image}
+												alt={skillItem.title}
 												height={"25px"}
 											/>
 											<p
